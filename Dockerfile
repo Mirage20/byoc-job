@@ -1,3 +1,5 @@
 FROM ubuntu:20.04
 
-Run echo "Hello, World"
+USER 10014
+
+RUN echo "Hello, World"
